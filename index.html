@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-   <div class="login">
-    <h2>Hello! <br> <span>Welcome Back!</span></h2>
-    <div class="inputBox">
-        <input type="text" placeholder="Username">
-    </div>
 
-    <div class="inputBox">
-        <input type="passw">
+<body>
+    <div class="login">
+        <form>
+            <h2>Hello! <br> <span>Welcome Back!</span></h2>
+        <div class="inputBox">
+            <input type="text" placeholder="Username">
+        </div>
+
+        <div class="inputBox">
+            <input type="password" placeholder="Password">
+        </div>
+        <label>
+            <input type="checkbox">Keep me logged in
+        </label>
+        <div>
+            <input type="submit" value="Log in">
+        </div>
+        </form>
+        <h4>OR</h4>
+        <div class="fingerprint">
+            <div class="fingerprintBox">
+                <img src="img/fingerprint.png">
+            </div>
+            <p>Login with fingerprint</p>
+
+        </div>
     </div>
-   </div> 
 </body>
+
 </html>
