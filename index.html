@@ -5,40 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login Page with fingerprint</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
     <div class="login">
         <form>
             <h2>Hello! <br> <span>Welcome Back!</span></h2>
-        <div class="inputBox">
-            <input type="text" placeholder="Username">
-            <i class="fa-regular fa-user"></i>
-        </div>
-
-        <div class="inputBox">
-            <input type="password" placeholder="Password">
-            <i class="fa-solid fa-lock"></i>
-        </div>
-        <label>
-            <input type="checkbox">Keep me logged in
-        </label>
-        <div>
-            <input type="submit" value="Log in">
-        </div>
-        </form>
-        <h4>OR</h4>
-        <div class="fingerprint">
-            <div class="fingerprintBox">
-                <img src="img/fingerprint.png">
+            <div class="inputBox">
+                <input type="text" placeholder="Username">
+                <i class="fa-regular fa-user"></i>
             </div>
-            <p>Login with fingerprint</p>
-
-        </div>
+            <div class="inputBox">
+                <input type="password" placeholder="Password">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+        </form>
+        <p>keep me logged in</p>
+        <div class="toggle-border">
+            <input id="one" type="checkbox">
+            <label for="one">
+              <div class="handle">
+              </div>
+            </label>
+          </div>
+        <button>
+            Log in
+        </button>
+        <h5>you have no account yet!</h5>
+        <button class="btn">
+            Rigester Now
+        </button>
     </div>
 </body>
-
 </html>
